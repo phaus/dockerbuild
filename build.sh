@@ -16,7 +16,7 @@ add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debian $(
 
 apt-get update -yq
 
-apt-get install -y docker-ce
+apt-get install -y docker-ce git
 
 curl -L https://github.com/docker/compose/releases/download/1.12.0/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
